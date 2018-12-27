@@ -1,8 +1,224 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.GridPane?>
-
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="mainlayout.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+
+<VBox fx:controller="mainlayout.Controller"
+      xmlns:fx="http://javafx.com/fxml">
+    <ListView fx:id="listview" maxHeight="220" onMouseClicked="#handleQuestionMouseClick"/>
+    <HBox>
+        <padding>
+            <Insets left="40" top="10"/>
+        </padding>
+        <!--<Button fx:id="get_questions" text="Get Questions">-->
+        <!--<font>-->
+        <!--<Font size="15.0"/>-->
+        <!--</font>-->
+        <!--</Button>-->
+
+    </HBox>
+    <!--Add question-->
+    <Label style="-fx-font-weight: bold" text="Question To Add ">
+        <padding>
+            <Insets left="15" top="25"/>
+        </padding>
+        <font>
+            <Font size="20.0"/>
+        </font>
+    </Label>
+
+    <TextField fx:id="question_field">
+        <font>
+            <Font size="20.0"/>
+        </font>
+    </TextField>
+    <!--ANSWER-->
+    <Label style="-fx-font-weight: bold" text="Answer ">
+        <padding>
+            <Insets left="15" top="15"/>
+        </padding>
+        <font>
+            <Font size="20.0"/>
+        </font>
+    </Label>
+    <TextArea fx:id="answer_field" maxHeight="100">
+        <font>
+            <Font size="20.0"/>
+        </font>
+    </TextArea>
+
+    <!--ADD A VERSE-->
+    <HBox>
+        <VBox>
+            <Label style="-fx-font-weight: bold" text="Verse ">
+                <padding>
+                    <Insets left="15" top="15"/>
+                </padding>
+                <font>
+                    <Font size="20.0"/>
+                </font>
+            </Label>
+
+            <!--BOOK-->
+            <HBox spacing="45">
+                <padding>
+                    <Insets left="15" top="15"/>
+                </padding>
+                <Label text="Book">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="book_textField">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </TextField>
+            </HBox>
+
+            <!--CHAPTER-->
+            <HBox spacing="20">
+                <padding>
+                    <Insets left="15" top="15"/>
+                </padding>
+                <Label text="Chapter">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="chapter_textfiled">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </TextField>
+            </HBox>
+
+            <!--VERSE-->
+            <HBox spacing="40">
+                <padding>
+                    <Insets left="15" top="15"/>
+                </padding>
+                <Label text="Verse">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="verse_textfiled">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </TextField>
+            </HBox>
+
+            <!--SCRIPTURE-->
+            <HBox spacing="10">
+                <padding>
+                    <Insets left="15" top="15"/>
+                </padding>
+                <Label text="Scripture">
+                    <font>
+                        <Font size="20.0"/>
+                    </font>
+                </Label>
+                <TextArea fx:id="scripture_textarea" maxWidth="250" maxHeight="100">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </TextArea>
+            </HBox>
+
+            <!--ADD VERSE BUTTON-->
+            <HBox spacing="15">
+
+                <padding>
+                    <Insets left="105" top="10"/>
+                </padding>
+                <Button fx:id="add_verse_array" text="Add Verse">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </Button>
+
+                <Button fx:id="clear_verse_field" text="Clear Verse">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </Button>
+
+            </HBox>
+        </VBox>
+
+        <!--SEPARATOR-->
+        <Separator fx:id="separator">
+            <padding>
+                <Insets left="15" top="15"/>
+            </padding>
+        </Separator>
+        <!--VERSES ARRAY-->
+        <VBox>
+            <padding>
+                <Insets left="15" top="15"/>
+            </padding>
+            <Label style="-fx-font-weight: bold" text="Verses Added ">
+                <padding>
+                    <Insets bottom="13"/>
+                </padding>
+                <font>
+                    <Font size="20.0"/>
+                </font>
+            </Label>
+            <ListView fx:id="verse_listview" minWidth="250" maxHeight="275" onMouseClicked="#handleMouseClick">
+
+            </ListView>
+            <HBox spacing="10">
+                <padding>
+                    <Insets top="15"/>
+                </padding>
+                <Button fx:id="submit_question" text="SUBMIT QUESTION">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </Button>
+
+                <Button fx:id="clear_question" text="Clear Question">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </Button>
+            </HBox>
+        </VBox>
+
+        <!--SEPARATOR-->
+        <Separator fx:id="separator2">
+            <padding>
+                <Insets left="15" top="15"/>
+            </padding>
+        </Separator>
+
+        <VBox>
+            <padding>
+                <Insets left="15" top="15"/>
+            </padding>
+            <Label style="-fx-font-weight: bold" text="Study to Add ">
+                <padding>
+                    <Insets bottom="13"/>
+                </padding>
+                <font>
+                    <Font size="20.0"/>
+                </font>
+            </Label>
+            <TextArea fx:id="study_textarea" maxWidth="300" minHeight="275">
+                <font>
+                    <Font size="15.0"/>
+                </font>
+            </TextArea>
+        </VBox>
+    </HBox>
+</VBox>
