@@ -1,11 +1,13 @@
 module BibleitJ {
     requires javafx.fxml;
     requires javafx.controls;
+    requires gson;
     requires log4j;
-    requires jackson.mapper.asl;
-    requires jackson.core.asl;
     requires httpclient;
     requires httpcore;
+    requires com.fasterxml.jackson.databind;
+
+
 
     opens mainlayout;
 

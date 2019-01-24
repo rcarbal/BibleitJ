@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../bibleitj/mainlayout/BibleQuestionModel.class" description="    private ArrayList&lt;QuestionObject&gt; questions = ..." line="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pojo/BibleVerse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pojo/QuestionObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/fasterxml/jackson/databind/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/ControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/DatabaseConnectObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/FilterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/GetQuestionsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/JSONConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BibleitJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BibleitJ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/error/JacksonUtilityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/service/Firebase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/service/Firebase$FirebaseRestMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/service/Firebase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/util/JacksonUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/BibleQuestionModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/BibleQuestionModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/net/thegreshams/firebase4j/model/FirebaseResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/pojo/BibleVerse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/pojo/BibleVerse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/pojo/QuestionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/pojo/QuestionObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_utils/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/error/FirebaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/thegreshams/firebase4j/error/FirebaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/error/JacksonUtilityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_utils/error/JacksonUtilityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/model/FirebaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_utils/model/FirebaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/service/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_utils/service/Firebase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase_connect/util/JacksonUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_utils/util/JacksonUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainlayout/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainlayout/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/BibleVerse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/BibleVerse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/QuestionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/QuestionObject.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +50,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -66,74 +100,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainlayout/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firebase_connect/demo/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-531">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firebase_connect/service/Firebase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firebase_connect/model/FirebaseResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/firebase_connect/util/JacksonUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainlayout/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="215">
+              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pojo/BibleVerse.java">
+        <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="158">
+              <caret line="183" column="99" selection-start-line="183" selection-start-column="99" selection-end-line="183" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pojo/QuestionObject.java">
+        <entry file="file://$PROJECT_DIR$/src/firebase_utils/service/Firebase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="724">
+              <caret line="582" selection-start-line="582" selection-end-line="582" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/DatabaseConnectObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -141,20 +140,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="884">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
+        <entry file="file://$PROJECT_DIR$/src/services/GetQuestionsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="176" column="98" selection-start-line="176" selection-start-column="98" selection-end-line="176" selection-end-column="98" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -164,6 +162,7 @@
       <list>
         <option value="package-info" />
         <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -171,6 +170,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>onMouse</find>
+      <find>get</find>
+      <find>ObjectMapper</find>
+      <find>FirebaseException</find>
+      <find>JsonMappingException</find>
+      <find>updateQuestionRetrieved</find>
+      <find>subm</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -184,16 +189,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/module-info.java" />
         <option value="$PROJECT_DIR$/src/firebase_connect/error/JacksonUtilityException.java" />
         <option value="$PROJECT_DIR$/src/firebase_connect/util/JacksonUtility.java" />
         <option value="$PROJECT_DIR$/src/firebase_connect/service/Firebase.java" />
         <option value="$PROJECT_DIR$/src/firebase_connect/demo/Demo.java" />
-        <option value="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" />
-        <option value="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" />
+        <option value="$PROJECT_DIR$/src/mainlayout/Main.java" />
+        <option value="$PROJECT_DIR$/src/DatabaseConnectObserver.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/DatabaseConnectObserver.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/ControllerInterface.java" />
+        <option value="$PROJECT_DIR$/src/interfaces/FilterInterface.java" />
+        <option value="$PROJECT_DIR$/src/services/GetQuestionsService.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/model/FirebaseResponse.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/error/FirebaseException.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/error/JacksonUtilityException.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/demo/Demo.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/service/Firebase.java" />
+        <option value="$PROJECT_DIR$/src/firebase_utils/util/JacksonUtility.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java" />
         <option value="$PROJECT_DIR$/src/pojo/QuestionObject.java" />
         <option value="$PROJECT_DIR$/src/pojo/BibleVerse.java" />
-        <option value="$PROJECT_DIR$/src/mainlayout/Main.java" />
+        <option value="$PROJECT_DIR$/src/utils/JSONConverter.java" />
+        <option value="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" />
+        <option value="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" />
         <option value="$PROJECT_DIR$/src/mainlayout/Controller.java" />
       </list>
     </option>
@@ -213,8 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,7 +247,66 @@
               <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_connect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mainlayout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BibleitJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BibleitJ" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +316,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,16 +334,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javalibraries/firebase4j/libs/httpcore-4.3.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.4" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+      <recent name="firebase_connect" />
+      <recent name="services" />
+      <recent name="interfaces" />
       <recent name="pojo" />
-      <recent name="mainlayout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -296,6 +376,20 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="firebase_utils.demo.Demo" />
+      <module name="BibleitJ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firebase_utils.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,6 +417,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -351,6 +446,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -369,30 +469,40 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24536082" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.12783505" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858837" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29774615" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32977462" />
+      <window_info anchor="bottom" id="Application Servers" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32977462" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Changes" order="9" />
+      <window_info anchor="bottom" id="Profiler" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" weight="0.32977462" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Debug" order="14" visible="true" weight="0.31316727" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32977462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,94 +518,217 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mainlayout/Controller.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="is" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+    <entry file="file://$PROJECT_DIR$/src/mainlayout/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatabaseConnectObserver.java" />
+    <entry file="file://$PROJECT_DIR$/src/interfaces/FilterInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/ControllerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.5-sources.jar!/org/codehaus/jackson/map/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="509" column="12" selection-start-line="509" selection-start-column="12" selection-end-line="509" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.5.jar!/org/codehaus/jackson/map/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5916">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="676" selection-start-line="676" selection-end-line="676" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/thegreshams/firebase4j/error/FirebaseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/error/JacksonUtilityException.java">
+    <entry file="jar://$PROJECT_DIR$/../../javalibraries/jackson-mapper-asl-1.5.0.jar!/org/codehaus/jackson/map/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="180">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/model/FirebaseResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/model/FirebaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/util/JacksonUtility.java">
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/error/FirebaseException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/service/Firebase.java">
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/error/JacksonUtilityException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/demo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/QuestionObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="669">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/util/JacksonUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pojo/BibleVerse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="669">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/JSONConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../javalibraries/javafx-sdk-11.0.1/lib/javafx.base.jar!/com/sun/javafx/event/CompositeEventHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfaces/DatabaseConnectObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/GetQuestionsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase_utils/service/Firebase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="582" selection-start-line="582" selection-end-line="582" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="176" column="98" selection-start-line="176" selection-start-column="98" selection-end-line="176" selection-end-column="98" />
-        </state>
-      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainlayout/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="158">
+          <caret line="183" column="99" selection-start-line="183" selection-start-column="99" selection-end-line="183" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainlayout/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="215">
+          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -557,7 +790,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4" />
               </list>
             </option>
           </splitter-proportions>
@@ -565,11 +798,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.codehaus.jackson:jackson-mapper-asl:1.9.5</last-edited>
+          <last-edited>com.fasterxml.jackson.core:jackson-databind:2.9.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4" />
               </list>
             </option>
           </splitter-proportions>
