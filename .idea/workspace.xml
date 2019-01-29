@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pojo/SendQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/FirebaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/firebase_connect/FirebaseHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/BibleQuestionModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/BibleQuestionModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/mainlayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/mainlayout/mainlayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BibleitJ/utils/JSONConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BibleitJ/utils/JSONConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainlayout/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/JSONConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/JSONConverter.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +69,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainlayout/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="166" column="13" lean-forward="true" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+            <state relative-caret-position="479">
+              <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="148" column="94" lean-forward="true" selection-start-line="148" selection-start-column="94" selection-end-line="148" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -133,26 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="391">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/JSONConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pojo/QuestionObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -186,6 +168,11 @@
       <find>in_use</find>
       <find>addVer</find>
       <find>verse_l</find>
+      <find>listview</find>
+      <find>QuestionObject</find>
+      <find>handleQ</find>
+      <find>Clear Ques</find>
+      <find>clear vers</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -219,10 +206,10 @@
         <option value="$PROJECT_DIR$/src/pojo/QuestionObject.java" />
         <option value="$PROJECT_DIR$/src/pojo/BibleVerse.java" />
         <option value="$PROJECT_DIR$/src/pojo/SendQuestion.java" />
-        <option value="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" />
         <option value="$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java" />
         <option value="$PROJECT_DIR$/src/mainlayout/BibleQuestionModel.java" />
         <option value="$PROJECT_DIR$/src/utils/JSONConverter.java" />
+        <option value="$PROJECT_DIR$/src/mainlayout/mainlayout.fxml" />
         <option value="$PROJECT_DIR$/src/mainlayout/Controller.java" />
       </list>
     </option>
@@ -496,16 +483,6 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mainlayout/Controller.java</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="bibleVerseArrayList" />
@@ -645,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="142" column="100" selection-start-line="142" selection-start-column="100" selection-end-line="142" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/firebase_utils/demo/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -671,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="500" selection-start-line="500" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainlayout/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="166" column="13" lean-forward="true" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -716,24 +678,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/pojo/QuestionObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="-68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/JSONConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
+        <state relative-caret-position="679">
           <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pojo/QuestionObject.java">
+    <entry file="file://$PROJECT_DIR$/src/firebase_connect/FirebaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainlayout/mainlayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="148" column="94" lean-forward="true" selection-start-line="148" selection-start-column="94" selection-end-line="148" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainlayout/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
         </state>
       </provider>
     </entry>

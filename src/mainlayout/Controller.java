@@ -48,7 +48,7 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
     @FXML
     public Button clear_question;
     @FXML
-    private ListView<String> listview;
+    private ListView<String> questions_listview;
     private BibleQuestionModel model;
     private ObservableList list;
     private ObservableList verseList;
@@ -111,9 +111,9 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
 
     public void addVerseToListView(MouseEvent mouseEvent) {
         BibleVerse bibleVerse = new BibleVerse();
-        String book =book_textField.getText();
+        String book = book_textField.getText();
         bibleVerse.setBook(book);
-        String chapter =chapter_textfiled.getText();
+        String chapter = chapter_textfiled.getText();
         bibleVerse.setChapter(chapter);
         String verse = verse_textfiled.getText();
         bibleVerse.setVerse(verse);
@@ -138,7 +138,47 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
 
 
     public void handleQuestionMouseClick(MouseEvent mouseEvent) {
+        if (mouseEvent.getClickCount() == 2) {
+            int index = questions_listview.getSelectionModel().getSelectedIndex();
+            if (selectedQuestionToOpen != null) {
+                selectedQuestionToOpen = null;
+            }
+            selectedQuestionToOpen = model.getQuestionsArrayList().get(index);
+            loadSelectedQuestion(selectedQuestionToOpen);
+        }
     }
+
+    private void loadSelectedQuestion(QuestionObject selectedQUestionToOpen) {
+        question_field.setText(selectedQUestionToOpen.getQuestion());
+        answer_field.setText(selectedQUestionToOpen.getAnswer());
+        study_textarea.setText(selectedQUestionToOpen.getStudy());
+        verse_listview.getItems().clear();
+
+        addVerseToListViewfromSelectedQuestion();
+
+    }
+
+    private void addVerseToListViewfromSelectedQuestion() {
+        verse_listview.getItems().clear();
+        verseArray.clear();
+        verseList.clear();
+        if (selectedQuestionToOpen != null) {
+            Iterator verseIterator = selectedQuestionToOpen.getVerses().iterator();
+            while (verseIterator.hasNext()) {
+                BibleVerse bibleVerse = (BibleVerse) verseIterator.next();
+                String book = bibleVerse.getBook();
+                String chapter = bibleVerse.getChapter();
+                String scripture = bibleVerse.getScripture();
+                String verse = bibleVerse.getVerse();
+                verseList.add(scripture);
+                clearVerseSection();
+            }
+
+            verse_listview.getItems().clear();
+            verse_listview.getItems().addAll(verseList);
+        }
+    }
+
 
     public void handleMouseClick(MouseEvent mouseEvent) {
     }
@@ -165,9 +205,9 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
                 QuestionObject questionObject = (QuestionObject) var2.next();
                 list.add(questionObject.getQuestion());
             }
-            listview.getItems().clear();
-            listview.setStyle("-fx-font-size: 2.0em ;");
-            listview.getItems().addAll(this.list);
+            questions_listview.getItems().clear();
+            questions_listview.setStyle("-fx-font-size: 2.0em ;");
+            questions_listview.getItems().addAll(this.list);
             answer_field.clear();
             study_textarea.clear();
             verseArray.clear();
@@ -185,5 +225,24 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
     @Override
     public void updateQuestionsNoFilter() {
 
+    }
+
+    public void clearQuestion(MouseEvent mouseEvent) {
+        question_field.clear();
+        answer_field.clear();
+        verse_listview.getItems().clear();
+        verseList.clear();
+        verseArray.clear();
+        study_textarea.clear();
+        selectedQuestionToOpen = null;
+        questionIndexSelected = -1;
+
+    }
+
+    public void cleaVerse(MouseEvent mouseEvent) {
+        book_textField.clear();
+        chapter_textfiled.clear();
+        scripture_textarea.clear();
+        verse_textfiled.clear();
     }
 }
