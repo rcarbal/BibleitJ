@@ -91,22 +91,49 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
             Optional<ButtonType> result = alert.showAndWait();
             if (result.isPresent() && result.get() == ButtonType.OK) {
                 if (this.selectedQuestionToOpen != null) {
-                    this.selectedQuestionToOpen.addQuestion(this.question_field.getText());
-                    this.selectedQuestionToOpen.addAnswer(this.answer_field.getText());
-                    this.selectedQuestionToOpen.addVerses(this.verseArray);
-                    this.selectedQuestionToOpen.addStudy(this.study_textarea.getText());
-                    this.model.updateQuestionToDatabase(this.selectedQuestionToOpen);
+//                    this.selectedQuestionToOpen.addQuestion(this.question_field.getText());
+//                    this.selectedQuestionToOpen.addAnswer(this.answer_field.getText());
+//                    this.selectedQuestionToOpen.addVerses(this.verseArray);
+//                    this.selectedQuestionToOpen.addStudy(this.study_textarea.getText());
+//                    this.model.updateQuestionToDatabase(this.selectedQuestionToOpen);
                 } else {
                     QuestionObject questionObject = new QuestionObject();
                     questionObject.addQuestion(this.question_field.getText());
                     questionObject.addAnswer(this.answer_field.getText());
                     questionObject.addVerses(this.verseArray);
                     questionObject.addStudy(this.study_textarea.getText());
-                    this.model.sendQuestionToDatabase(questionObject);
+                    model.sendQuestionToDatabase(questionObject);
                 }
             }
         }
 
+    }
+
+    public void addVerseToListView(MouseEvent mouseEvent) {
+        BibleVerse bibleVerse = new BibleVerse();
+        String book =book_textField.getText();
+        bibleVerse.setBook(book);
+        String chapter =chapter_textfiled.getText();
+        bibleVerse.setChapter(chapter);
+        String verse = verse_textfiled.getText();
+        bibleVerse.setVerse(verse);
+        String scripture = scripture_textarea.getText();
+        bibleVerse.setScripture(scripture);
+
+        verseArray.add(bibleVerse);
+        verseList.add(scripture);
+        verse_listview.getItems().clear();
+        verse_listview.getItems().addAll(verseList);
+        clearVerseSection();
+
+
+    }
+
+    private void clearVerseSection() {
+        book_textField.clear();
+        chapter_textfiled.clear();
+        scripture_textarea.clear();
+        verse_textfiled.clear();
     }
 
 
@@ -131,15 +158,20 @@ public class Controller implements Initializable, DatabaseConnectObserver, Contr
     public void updateQuestionRetrieved(boolean var1) {
         if (var1) {
             question_field.clear();
+            verse_listview.getItems().clear();
             list.removeAll(list);
             Iterator var2 = this.model.getQuestionsArrayList().iterator();
-            while (var2.hasNext()){
-                QuestionObject questionObject = (QuestionObject)var2.next();
+            while (var2.hasNext()) {
+                QuestionObject questionObject = (QuestionObject) var2.next();
                 list.add(questionObject.getQuestion());
             }
             listview.getItems().clear();
             listview.setStyle("-fx-font-size: 2.0em ;");
             listview.getItems().addAll(this.list);
+            answer_field.clear();
+            study_textarea.clear();
+            verseArray.clear();
+            verseList.clear();
 
         }
 

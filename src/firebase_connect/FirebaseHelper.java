@@ -1,5 +1,6 @@
 package firebase_connect;
 
+import com.google.gson.JsonObject;
 import firebase_utils.error.JacksonUtilityException;
 import firebase_utils.model.FirebaseResponse;
 import firebase_utils.service.Firebase;
@@ -25,5 +26,20 @@ public class FirebaseHelper {
         System.out.println(response);
         System.out.println("\n");
         return response;
+    }
+
+    public static boolean sendQuestionToDatabase(JsonObject sendQuestion, String questionId) {
+        String firebase_baseUrl = "https://bible-it.firebaseio.com/";
+        FirebaseResponse response = null;
+        Firebase firebase = null;
+
+        try {
+            firebase = new Firebase(firebase_baseUrl);
+            response = firebase.put(questionId, sendQuestion.toString());
+        } catch (UnsupportedEncodingException | FirebaseException | JacksonUtilityException var6) {
+            var6.printStackTrace();
+        }
+
+        return response.getSuccess();
     }
 }

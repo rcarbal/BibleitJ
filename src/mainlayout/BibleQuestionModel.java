@@ -5,6 +5,7 @@ import interfaces.DatabaseConnectObserver;
 import interfaces.FilterInterface;
 import javafx.concurrent.Service;
 import pojo.QuestionObject;
+import pojo.SendQuestion;
 import services.GetQuestionsService;
 
 import java.util.ArrayList;
@@ -51,6 +52,20 @@ public class BibleQuestionModel {
 
     public ArrayList<QuestionObject> getQuestionsArrayList() {
         return questions;
+    }
+
+    public void sendQuestionToDatabase(QuestionObject questionObject) {
+        Service<Boolean> service = new SendQuestion(questionObject);
+        service.setOnSucceeded(e ->{
+            boolean connected = service.getValue();
+            if (connected){
+                getQuestionsFromFirebase();
+            }else {
+                //TODO add code if question insert is unsuccessful
+            }
+
+        });
+        service.restart();
     }
 }
 

@@ -19,7 +19,7 @@ public class JSONConverter {
 
         for(int i = 0; i < keyArray.size(); i++){
             QuestionObject questionObject = new QuestionObject();
-            JsonElement element = object.get((String)keyArray.get(i));
+            JsonElement element = object.get(keyArray.get(i));
             JsonObject questionJson =  element.getAsJsonObject();
 
             String questionKey = keyArray.get(i);
@@ -32,6 +32,7 @@ public class JSONConverter {
             questionObject.addAnswer(answerString);
             questionObject.addStudy(studyString);
             questionObject.setInUse(inUseString);
+
             JsonArray approvalArray = questionJson.getAsJsonArray("approvals");
             Map<String, Boolean> approvals = new HashMap();
             Iterator var2 = approvalArray.iterator();
@@ -79,21 +80,21 @@ public class JSONConverter {
             }
 
             questionObject.addApprovals(approvals);
-            questions.add(questionObject);
+//
             JsonArray versesArray = questionJson.getAsJsonArray("verses");
             ArrayList<BibleVerse> bibleVerseArrayList = new ArrayList();
             boolean someBoolean = false;
 
             if (versesArray != null){
-                for(int a =0; a <= versesArray.size(); a++ ) {
+                for(int a =0; a < versesArray.size(); a++ ) {
                     JsonElement verseElement = versesArray.get(a);
                     BibleVerse verseObject = new BibleVerse();
                     JsonObject verseJsonObject = verseElement.getAsJsonObject();
-                    JsonArray jsonVerseArray = verseJsonObject.getAsJsonArray();
-                    JsonElement bookElement = jsonVerseArray.get(0);
-                    JsonElement chapterElement = jsonVerseArray.get(1);
-                    JsonElement verseNumberElement = jsonVerseArray.get(2);
-                    JsonElement scriptureElement = jsonVerseArray.get(3);
+//                    JsonArray jsonVerseArray = verseJsonObject.getAsJsonArray();
+                    JsonElement bookElement = verseJsonObject.get("book");
+                    JsonElement chapterElement = verseJsonObject.get("chapter");
+                    JsonElement verseNumberElement = verseJsonObject.get("verse");
+                    JsonElement scriptureElement = verseJsonObject.get("scripture");
                     String book = bookElement.getAsString();
                     String chapter = chapterElement.getAsString();
                     String verse = verseNumberElement.getAsString();
@@ -105,8 +106,106 @@ public class JSONConverter {
                     bibleVerseArrayList.add(verseObject);
                 }
                 questionObject.addVerses(bibleVerseArrayList);
+                questions.add(questionObject);
             }
         }
         return questions;
+    }
+
+    public static JsonObject convertObjectToJson(QuestionObject questionObject) {
+        JsonObject mainJson = new JsonObject();
+        String question = questionObject.getQuestion();
+        if (question.equals("")) {
+            return null;
+        } else {
+            mainJson.addProperty("in_use", "");
+            mainJson.addProperty("question", question);
+            String answer = questionObject.getAnswer();
+            if (questionObject.getAnswer() == null) {
+                answer = "";
+            }
+
+            mainJson.addProperty("answer", answer);
+            String study = questionObject.getStudy();
+            if (study == null) {
+                study = "";
+            }
+
+            mainJson.addProperty("study", study);
+            boolean pastorDonApproval;
+            boolean pastorPaulApproval;
+            boolean pastorTonyApproval;
+            boolean ricardo_carballo;
+            if (questionObject.getApproval() == null) {
+                pastorDonApproval = false;
+                pastorPaulApproval = false;
+                pastorTonyApproval = false;
+                ricardo_carballo = false;
+                Map<String, Boolean> approvals = new HashMap();
+                approvals.put("pastor_don", pastorDonApproval);
+                approvals.put("pastor_tony", pastorPaulApproval);
+                approvals.put("pastor_paul", pastorTonyApproval);
+                approvals.put("ricardo_carballo", ricardo_carballo);
+                questionObject.addApprovals(approvals);
+            }
+
+            pastorDonApproval = questionObject.getApproval().get("pastor_don");
+            pastorPaulApproval = questionObject.getApproval().get("pastor_paul");
+            pastorTonyApproval = questionObject.getApproval().get("pastor_tony");
+            ricardo_carballo = questionObject.getApproval().get("ricardo_carballo");
+            JsonObject approvalPastorDon = new JsonObject();
+            approvalPastorDon.addProperty("pastor_don", pastorDonApproval);
+            JsonObject approvalPastorTony = new JsonObject();
+            approvalPastorTony.addProperty("pastor_paul", pastorPaulApproval);
+            JsonObject approvalPastorPaul = new JsonObject();
+            approvalPastorPaul.addProperty("pastor_tony", pastorTonyApproval);
+            JsonObject approvalRicardoCarballo = new JsonObject();
+            approvalRicardoCarballo.addProperty("ricardo_carballo", ricardo_carballo);
+            JsonArray approvalArray = new JsonArray();
+            approvalArray.add(approvalPastorDon);
+            approvalArray.add(approvalPastorTony);
+            approvalArray.add(approvalPastorPaul);
+            approvalArray.add(approvalRicardoCarballo);
+            mainJson.add("approvals", approvalArray);
+
+            ArrayList<BibleVerse> verses = null;
+            if (questionObject.getVerses() == null) {
+                verses = new ArrayList();
+                BibleVerse verse = new BibleVerse();
+                verse.addVerseScripture("");
+                verse.addVerseTitle("");
+                verses.add(verse);
+            } else {
+                verses = questionObject.getVerses();
+            }
+
+            if (verses.size() > 0) {
+                JsonArray verseArray = new JsonArray();
+
+                for(int i = 0; i < verses.size(); ++i) {
+                    JsonObject jsonObject = new JsonObject();
+                    BibleVerse bibleVerse = verses.get(i);
+                    String book = bibleVerse.getBook();
+                    String chapter = bibleVerse.getChapter();
+                    String verse = bibleVerse.getVerse();
+                    String scripture = bibleVerse.getScripture();
+
+//                    JsonArray array = new JsonArray();
+//                    array.add(book);
+//                    array.add(chapter);
+//                    array.add(verse);
+//                    array.add(scripture);
+
+                    jsonObject.addProperty("book", book);
+                    jsonObject.addProperty("chapter", chapter);
+                    jsonObject.addProperty("verse", verse);
+                    jsonObject.addProperty("scripture", scripture);
+                    verseArray.add(jsonObject);
+                }
+
+                mainJson.add("verses", verseArray);
+            }
+            return mainJson;
+        }
     }
 }

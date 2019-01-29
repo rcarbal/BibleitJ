@@ -140,7 +140,7 @@
                 <padding>
                     <Insets left="105" top="10"/>
                 </padding>
-                <Button fx:id="add_verse_array" text="Add Verse">
+                <Button fx:id="add_verse_array" text="Add Verse" onMouseClicked="#addVerseToListView">
                     <font>
                         <Font size="15.0"/>
                     </font>
